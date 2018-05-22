@@ -63,7 +63,7 @@
               <h3 style="text-align:center;">"Life without books is like a body without a Soul"</h3>
               <p style="text-align:center;">Pencarian dengan nama buku, pengarang buku, penerbit buku dan lain lain ... </p>
               <br>
-              <form class="" action="/action_page.php">
+              <form class="" action="/listbook">
                <input style="max-width: 500px" class="form-control" type="text" placeholder="Cari buku, proposal, Tugas akhir , dll ...">
                <br>
                <div style="text-align:center;">
