@@ -23,7 +23,7 @@
                     <th>id Pustakawan</th>
                     <th>NIP</th>
                     <th>Nama Pustakawan</th>
-                    <th>Level</th>
+                    <th>Status</th>
                     <th>Operasi</th>
                   </tr>
                 </thead>
@@ -32,30 +32,30 @@
                     <td>P001</td>
                     <td>199789098123</td>
                     <td>Naufal P.F</td>
-                    <td>0</td>
+                    <td>Pustakawan</td>
                     <td>
-                      <a href="#" class="btn btn-warning"><i class="material-icons">delete</i></a>
-                      <a href="#" class="btn btn-info"><i class="material-icons">update</i></a>
+                      <a href="#" class="btn btn-info">Ubah</a>
+                      <a href="#" class="btn btn-danger">Hapus</a>
                     </td>
                   </tr>
                   <tr>
                     <td>A002</td>
                     <td>199689098345</td>
                     <td>Findryan Kurnia </td>
-                    <td>1</td>
+                    <td>Admin</td>
                     <td>
-                      <a href="#" class="btn btn-warning"><i class="material-icons">delete</i></a>
-                      <a href="#" class="btn btn-info"><i class="material-icons">update</i></a>
+                      <a href="#" class="btn btn-info">Ubah</a>
+                      <a href="#" class="btn btn-danger">Hapus</a>
                     </td>
                   </tr>
                   <tr>
                     <td>P002</td>
                     <td>199789098123</td>
                     <td>Superman </td>
-                    <td>0</td>
+                    <td>Pustakawan</td>
                     <td>
-                      <a href="#" class="btn btn-warning"><i class="material-icons">delete</i></a>
-                      <a href="#" class="btn btn-info"><i class="material-icons">update</i></a>
+                      <a href="#" class="btn btn-info">Ubah</a>
+                      <a href="#" class="btn btn-danger">Hapus</a>
                     </td>
                   </tr>
                 </tbody>

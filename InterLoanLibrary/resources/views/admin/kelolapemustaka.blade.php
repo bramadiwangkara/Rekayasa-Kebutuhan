@@ -33,10 +33,10 @@
                     <td>05111540000150</td>
                     <td>Brama Diwangkara</td>
                     <td>Foto</td>
-                    <td>Suspended</td>
+                    <td>Cekal</td>
                     <td>
-                      <a href="#" class="btn btn-secondary"><i class="material-icons">warning</i></a>
-                      <a href="#" class="btn btn-success"><i class="material-icons">done</i></a>
+                      <a href="#" class="btn btn-secondary">Cekal</a>
+                      <a href="#" class="btn btn-success">Clear</a>
                     </td>
                   </tr>
                   <tr>
@@ -44,10 +44,10 @@
                     <td>05111540000024</td>
                     <td>Widhera Yoza</td>
                     <td>Foto</td>
-                    <td>Clear</td>
+                    <td>-</td>
                     <td>
-                      <a href="#" class="btn btn-warning"><i class="material-icons">warning</i></a>
-                      <a href="#" class="btn btn-secondary"><i class="material-icons">done</i></a>
+                      <a href="#" class="btn btn-warning">Cekal</a>
+                      <a href="#" class="btn btn-secondary">Clear</a>
                     </td>
                   </tr>
                   <tr>
@@ -55,10 +55,10 @@
                     <td>05111540000170</td>
                     <td>Firza Gustama</td>
                     <td>Foto</td>
-                    <td>Clear</td>
+                    <td>-</td>
                     <td>
-                      <a href="#" class="btn btn-warning"><i class="material-icons">warning</i></a>
-                      <a href="#" class="btn btn-secondary"><i class="material-icons">done</i></a>
+                      <a href="#" class="btn btn-warning">Cekal</a>
+                      <a href="#" class="btn btn-secondary">Clear</a>
                     </td>
                   </tr>
                 </tbody>

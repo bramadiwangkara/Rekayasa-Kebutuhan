@@ -69,7 +69,7 @@
             <div class="content">
 
                 <div class="title m-b-md">
-                    <a href="\index">InterloanLibrary ITS</a>
+                    <a href="\index">InterLibraryLoan ITS</a>
                 </div>
 
                 <div class="links">

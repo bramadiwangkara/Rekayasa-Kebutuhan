@@ -32,7 +32,7 @@
         <!-- Brand -->
         <a class="navbar-brand" href="/admin">
           <img src="https://upload.wikimedia.org/wikipedia/id/thumb/c/c4/Badge_ITS.png/200px-Badge_ITS.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Inter-loan Library ITS</a>
+          InterLibraryLoan ITS</a>
 
               <!-- Links -->
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">

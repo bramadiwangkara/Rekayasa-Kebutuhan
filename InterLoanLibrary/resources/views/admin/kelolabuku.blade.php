@@ -4,7 +4,7 @@
     <div class="row">
       <div class="col-md-2">
       </div>
-      <div class="col-md-8">
+      <div class="col-md-12">
         <div class="card">
           <div class="card-header"><h3>Kelola Buku</h3></div>
           <div class="card-body">
@@ -42,10 +42,12 @@
               <thead>
                 <tr>
                   <th>id buku</th>
+                  <th>Kode buku</th>
                   <th>Judul</th>
                   <th>Pengarang</th>
                   <th>Penerbit</th>
                   <th>Tahun terbit</th>
+                  <th>Lokasi</th>
                   <th>Jumlah</th>
                   <th>Operasi</th>
                 </tr>
@@ -53,44 +55,44 @@
               <tbody id="myTable">
                 <tr>
                   <td>51001</td>
+                  <td>Kode</td>
                   <td>The Art of Fielding</td>
                   <td>Chad Harmlat</td>
                   <td>Chad Group</td>
                   <td>2007</td>
+                  <td>Teknik Informatika</td>
                   <td>1</td>
                   <td>
-                    <a href="#" class="btn btn-info"><i class="material-icons">update</i></a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">delete</i></a>
-                    <a href="#" class="btn btn-dark"><i class="material-icons">picture_as_pdf</i></a>
-                    <a href="#" class="btn btn-success"><i class="material-icons">file_download</i></a>
+                    <a href="#" class="btn btn-info">Ubah</a>
+                    <a href="#" class="btn btn-danger">Hapus</a>
                   </td>
                 </tr>
                 <tr>
                   <td>41001</td>
+                  <td>Kode</td>
                   <td>Catherine The Great</td>
                   <td>Robert K.Massie</td>
                   <td>Robert Group</td>
                   <td>1998</td>
+                  <td>Sistem Informasi</td>
                   <td>3</td>
                   <td>
-                    <a href="#" class="btn btn-info"><i class="material-icons">update</i></a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">delete</i></a>
-                    <a href="#" class="btn btn-dark"><i class="material-icons">picture_as_pdf</i></a>
-                    <a href="#" class="btn btn-success"><i class="material-icons">file_download</i></a>
+                    <a href="#" class="btn btn-info">Ubah</a>
+                    <a href="#" class="btn btn-danger">Hapus</a>
                   </td>
                 </tr>
                 <tr>
                   <td>21001</td>
+                  <td>Kode</td>
                   <td>The Great Gatsby</td>
                   <td>F.Scott FitzGerald</td>
                   <td>Chad Group</td>
                   <td>2005</td>
+                  <td>Fakultas Teknik Perkapalan</td>
                   <td>1</td>
                   <td>
-                    <a href="#" class="btn btn-info"><i class="material-icons">update</i></a>
-                    <a href="#" class="btn btn-danger"><i class="material-icons">delete</i></a>
-                    <a href="#" class="btn btn-dark"><i class="material-icons">picture_as_pdf</i></a>
-                    <a href="#" class="btn btn-success"><i class="material-icons">file_download</i></a>
+                    <a href="#" class="btn btn-info">Ubah</a>
+                    <a href="#" class="btn btn-danger">Hapus</a>
                   </td>
                 </tr>
               </tbody>

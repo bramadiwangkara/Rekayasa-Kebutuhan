@@ -30,7 +30,7 @@
         <!-- Brand -->
         <a class="navbar-brand" href="/index">
           <img src="https://upload.wikimedia.org/wikipedia/id/thumb/c/c4/Badge_ITS.png/200px-Badge_ITS.png" width="30" height="30" class="d-inline-block align-top" alt="">
-          Inter-loan Library ITS</a>
+          InterLibraryLoan ITS</a>
 
               <!-- Links -->
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
@@ -82,7 +82,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4">
-					<h5>Interloan Library</h5>
+					<h5>InterLibraryLoan</h5>
 					<ul class="list-unstyled quick-links">
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Perpustakaan pusat</a></li>
 						<li><a href="javascript:void();"><i class="fa fa-angle-double-right"></i>Fasilitas Perpustakaan</a></li>
