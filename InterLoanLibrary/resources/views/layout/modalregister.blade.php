@@ -9,21 +9,21 @@
     <div class="modal-content">
       <div class="modal-header">
         {{-- <button type="button" class="close" data-dismiss="modal">&times;</button> --}}
-        <h4 class="modal-title">Login</h4>
+        <h4 class="modal-title">Masuk</h4>
       </div>
       <div class="modal-body">
-        <form method="POST" action="{{ route('login') }}">
+        <form method="" action="/user">
             @csrf
 
             <div class="form-group row">
-                <label for="nrp" class="col-sm-4 col-form-label text-md-right">{{ __('NRP') }}</label>
+                <label for="nrp" class="col-sm-4 col-form-label text-md-right">{{ __('NIP/NRP') }}</label>
 
                 <div class="col-md-6">
-                    <input id="nrp" type="email" class="form-control{{ $errors->has('nrp') ? ' is-invalid' : '' }}" name="nrp" value="{{ old('nrp') }}" required autofocus>
+                    <input id="nrp" type="text" class="form-control{{ $errors->has('nrp') ? ' is-invalid' : '' }}" name="nrp" value="{{ old('nrp') }}" required autofocus>
 
-                    @if ($errors->has('nrp'))
+                    @if ($errors->has('nip/nrp'))
                         <span class="invalid-feedback">
-                            <strong>{{ $errors->first('nrp') }}</strong>
+                            <strong>{{ $errors->first('nip/nrp') }}</strong>
                         </span>
                     @endif
                 </div>
@@ -55,19 +55,19 @@
 
             <div class="form-group row mb-0">
                 <div class="col-md-8 offset-md-4">
-                    <button type="submit" class="btn btn-primary">
-                        {{ __('Login') }}
-                    </button>
+                    <a href="/user"><button type="submit" class="btn btn-primary">
+                        {{ __('Masuk') }}
+                    </button></a>
 
                     <a class="btn btn-link" href="{{ route('password.request') }}">
-                        {{ __('Forgot Your Password?') }}
+                        {{ __('Lupas paswword?') }}
                     </a>
                 </div>
             </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
       </div>
     </div>
 
@@ -82,40 +82,25 @@
     <div class="modal-content">
       <div class="modal-header">
         {{-- <button type="button" class="close" data-dismiss="modal">&times;</button> --}}
-        <h4 class="modal-title">Register</h4>
+        <h4 class="modal-title">Daftar</h4>
       </div>
       <div class="modal-body">
-        <form method="POST" action="{{ route('register') }}">
+        <form method="POST" action="/user">
             @csrf
 
             <div class="form-group row">
-                <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Name') }}</label>
+                <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('NIP/NRP') }}</label>
 
                 <div class="col-md-6">
-                    <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('name') }}" required autofocus>
+                    <input id="name" type="text" class="form-control{{ $errors->has('name') ? ' is-invalid' : '' }}" name="name" value="{{ old('NIP/NRP') }}" required autofocus>
 
-                    @if ($errors->has('name'))
+                    @if ($errors->has('NIP/NRP'))
                         <span class="invalid-feedback">
-                            <strong>{{ $errors->first('name') }}</strong>
+                            <strong>{{ $errors->first('NIP/NRP') }}</strong>
                         </span>
                     @endif
                 </div>
             </div>
-
-            <div class="form-group row">
-                <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('NRP') }}</label>
-
-                <div class="col-md-6">
-                    <input id="email" type="email" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
-
-                    @if ($errors->has('email'))
-                        <span class="invalid-feedback">
-                            <strong>{{ $errors->first('email') }}</strong>
-                        </span>
-                    @endif
-                </div>
-            </div>
-
             <div class="form-group row">
                 <label for="password" class="col-md-4 col-form-label text-md-right">{{ __('Password') }}</label>
 
@@ -141,14 +126,14 @@
             <div class="form-group row mb-0">
                 <div class="col-md-6 offset-md-4">
                     <button type="submit" class="btn btn-primary">
-                        {{ __('Register') }}
+                        {{ __('Daftar') }}
                     </button>
                 </div>
             </div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
       </div>
     </div>
 

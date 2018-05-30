@@ -25,6 +25,10 @@ Route::get('/admin/kelolapemustaka', 'adminController@kelolapemustaka')->name('a
 Route::get('/admin/kelolapustakawan', 'adminController@kelolapustakawan')->name('admin.kelolapustakawan');
 Route::get('/admin/datapeminjaman', 'adminController@datapeminjaman')->name('admin.datapeminjaman');
 
+Route::get('/user', 'UserController@index')->name('user.home');
+Route::get('/user/profil', 'UserController@profil')->name('user.profil');
+Route::get('/user/listbook', 'UserController@listBook')->name('user.listBook');
+Route::get('/user/listbook/detailbook', 'UserController@detailBook')->name('user.detailBook');
 
 Auth::routes();
 
