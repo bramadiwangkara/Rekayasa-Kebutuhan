@@ -2,7 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Home </title>
+    <title>User</title>
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
     <link href="{{ asset('css/tambahan.css') }}" rel="stylesheet">
@@ -21,7 +22,6 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-
   </head>
   <body>
 
@@ -35,13 +35,12 @@
               <!-- Links -->
               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link" href="/listbook">List Book</a>
+                  <a class="nav-link" href="/user/listbook">List Book</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">About</a>
                 </li>
 
-                <!-- Dropdown -->
                 <li class="nav-item dropdown">
                   <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
                     Kategori
@@ -56,11 +55,20 @@
 
                 </li>
               </ul>
+<!--               <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              </ul> -->
               @include('/layout/modalregister')
               <ul class="navbar-nav">
-                <li class="nav-item">
-                  <button type="button" class="btn btn-grey" data-toggle="modal" data-target="#login">Masuk</button>
-                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#register">Daftar</button>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    05111540000150
+                  </a>
+                  <!-- <button type="button" class="btn btn-grey" data-toggle="modal" data-target="#login">Login</button>
+                  <button type="button" class="btn btn-info" data-toggle="modal" data-target="#register">Register</button> -->
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" href="{{ route('user.profil') }}">Profil</a>
+                    <a class="dropdown-item" href="/index">Keluar</a>
+                  </div>
                 </li>
                 <br>
               </ul>
