@@ -58,7 +58,9 @@
         </button>
       </div>
       <div class="modal-body">
-        Apakah anda yakin meminjam buku ini?
+        Apakah anda yakin meminjam buku ini?<br><br>
+        Lama peminjaman adalah 5 hari kerja<br>
+        Denda keterlambatan adalah Rp. 500,00- per hari<br>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-dismiss="modal">Tutup</button>
