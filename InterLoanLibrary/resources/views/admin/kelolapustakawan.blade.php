@@ -12,15 +12,15 @@
                 <h3>Kelola Pustakawan</h3>
             </div>
             <div class="card-body">
-              <p style="color:red">*Pencarian berdasarkan judul Nama dan NIP</p>
+              <!-- <p style="color:red">*Pencarian berdasarkan judul Nama dan NIP</p> -->
               <input class="form-control" id="myInput" type="text" placeholder="Search..">
               <br>
-              <a href="#" class="btn btn-success"><i class="material-icons">add</i>Tambah Pustakawan</a>
+              <a href="#" data-toggle="modal" data-target="#tambahpustakawan" class="btn btn-success"><i class="material-icons">add</i>Tambah Pustakawan</a>
               <br><br>
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th>id Pustakawan</th>
+                    <!-- <th>id Pustakawan</th> -->
                     <th>NIP</th>
                     <th>Nama Pustakawan</th>
                     <th>Status</th>
@@ -29,32 +29,32 @@
                 </thead>
                 <tbody id="myTable">
                   <tr>
-                    <td>P001</td>
+                    <!-- <td>001</td> -->
                     <td>199789098123</td>
                     <td>Naufal P.F</td>
                     <td>Pustakawan</td>
                     <td>
-                      <a href="#" class="btn btn-info">Ubah</a>
+                      <a href="#" data-toggle="modal" data-target="#editpustakawan" class="btn btn-info">Ubah</a>
                       <a href="#" class="btn btn-danger">Hapus</a>
                     </td>
                   </tr>
                   <tr>
-                    <td>A002</td>
+                    <!-- <td>002</td> -->
                     <td>199689098345</td>
                     <td>Findryan Kurnia </td>
                     <td>Admin</td>
                     <td>
-                      <a href="#" class="btn btn-info">Ubah</a>
+                      <a href="#" data-toggle="modal" data-target="#editpustakawan" class="btn btn-info">Ubah</a>
                       <a href="#" class="btn btn-danger">Hapus</a>
                     </td>
                   </tr>
                   <tr>
-                    <td>P002</td>
+                    <!-- <td>002</td> -->
                     <td>199789098123</td>
                     <td>Superman </td>
                     <td>Pustakawan</td>
                     <td>
-                      <a href="#" class="btn btn-info">Ubah</a>
+                      <a href="#" data-toggle="modal" data-target="#editpustakawan" class="btn btn-info">Ubah</a>
                       <a href="#" class="btn btn-danger">Hapus</a>
                     </td>
                   </tr>
@@ -68,6 +68,50 @@
 			</div>
 		</div>
 	</div>
+</div>
+
+
+
+<div id="tambahpustakawan" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title">Tambah Pustakawan</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+<div id="editpustakawan" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <!-- <button type="button" class="close" data-dismiss="modal">&times;</button> -->
+        <h4 class="modal-title">Edit Pustakawan: Naufal P.F</h4>
+      </div>
+      <div class="modal-body">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 <script>

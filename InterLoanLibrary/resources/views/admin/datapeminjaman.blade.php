@@ -12,13 +12,24 @@
               <h3>Data Peminjaman</h3>
             </div>
             <div class="card-body">
-              <p style="color:red">*Pencarian berdasarkan judul ID Reservasi dan status</p>
+              <div class="dropdown">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                    Kelola berdasarkan
+                  </button>
+                  <div class="dropdown-menu">
+                    <a class="dropdown-item" style="color: green">Sedang Meminjam</a>
+                    <a class="dropdown-item" style="color:#E9E900 ">Menunggu Pengambilan</a>
+                    <a class="dropdown-item" style="color:red">Melebihi Waktu</a>
+                  </div>
+                </div>
+                <br>
+              <!-- <p style="color:red">*Pencarian berdasarkan judul ID Peminjaman dan status</p> -->
               <input class="form-control" id="myInput" type="text" placeholder="Search..">
               <br><br>
               <table class="table table-striped table-hover">
                 <thead>
                   <tr>
-                    <th>id Reservasi</th>
+                    <th>id Peminjaman</th>
                     <th>id Pemustaka</th>
                     <th>id Buku</th>
                     <th>status</th>
@@ -50,11 +61,12 @@
                     <td>RES051</td>
                     <td>05111540000170</td>
                     <td>MCN002</td>
-                    <td style="color:green">Hari ini</td>
+                    <td style="color:#E9E900">Menunggu Pengambilan</td>
                     <td>
-                      <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#perpanjang">Perpanjang</a>
+                      <button class="btn btn-info">Pinjamkan</button>
+<!--                       <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#perpanjang">Perpanjang</a>
                       <a href="#" class="btn btn-success" data-toggle="modal" data-target="#myModal">Selesai</a>
-                    </td>
+ -->                    </td>
                   </tr>
                 </tbody>
               </table>

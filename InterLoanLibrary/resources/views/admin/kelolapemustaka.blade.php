@@ -12,53 +12,53 @@
                 <h3>Kelola Pemustaka</h3>
             </div>
             <div class="card-body">
-              <p style="color:red">*Pencarian berdasarkan judul Nama dan NRP</p>
+              <!-- <p style="color:red">*Pencarian berdasarkan judul Nama dan NRP</p> -->
               <input class="form-control" id="myInput" type="text" placeholder="Search..">
               <br>
               <br>
               <table class="table table-striped">
                 <thead>
                   <tr>
-                    <th>id Pemustaka</th>
-                    <th>NRP</th>
-                    <th>Nama Mahasiswa</th>
-                    <th>Foto KTM</th>
+                    <!-- <th>id Pemustaka</th> -->
+                    <th>NRP/NIP</th>
+                    <th>Nama Pemustaka</th>
+                    <th>Foto Kartu Pengenal</th>
                     <th>Status</th>
                     <th>Operasi</th>
                   </tr>
                 </thead>
                 <tbody id="myTable">
                   <tr>
-                    <td>0001</td>
+                    <!-- <td>0001</td> -->
                     <td>05111540000150</td>
                     <td>Brama Diwangkara</td>
                     <td>Foto</td>
-                    <td>Cekal</td>
+                    <td style="color: red">Cekal</td>
                     <td>
-                      <a href="#" class="btn btn-secondary">Cekal</a>
+                      <!-- <a href="#" class="btn btn-secondary">Cekal</a> -->
                       <a href="#" class="btn btn-success">Clear</a>
                     </td>
                   </tr>
                   <tr>
-                    <td>0002</td>
+                    <!-- <td>0002</td> -->
                     <td>05111540000024</td>
                     <td>Widhera Yoza</td>
                     <td>Foto</td>
                     <td>-</td>
                     <td>
                       <a href="#" class="btn btn-warning">Cekal</a>
-                      <a href="#" class="btn btn-secondary">Clear</a>
+                      <!-- <a href="#" class="btn btn-secondary">Clear</a> -->
                     </td>
                   </tr>
                   <tr>
-                    <td>0003</td>
+                    <!-- <td>0003</td> -->
                     <td>05111540000170</td>
                     <td>Firza Gustama</td>
                     <td>Foto</td>
                     <td>-</td>
                     <td>
                       <a href="#" class="btn btn-warning">Cekal</a>
-                      <a href="#" class="btn btn-secondary">Clear</a>
+                      <!-- <a href="#" class="btn btn-secondary">Clear</a> -->
                     </td>
                   </tr>
                 </tbody>

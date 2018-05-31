@@ -15,6 +15,11 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
+    <style type="text/css">
+    	.nav li a {
+		    margin-right: 80px;
+		}
+    </style>
 
     {{-- footer --}}
 
@@ -49,7 +54,21 @@
                 <li class="nav-item">
                   <a class="nav-link" href="/admin/kelolapustakawan">Kelola Pustakawan</a>
                 </li>
-              </ul>
+            </ul>
+            <ul class="nav navbar-nav navbar-right mt-lg-0">
+            	<li class="dropdown">
+		        	<a class="nav-link" data-toggle="dropdown" href="#">#Admin</a>
+			        <ul class="dropdown-menu">
+			          <!-- <li><a class="nav-link" href="#"></a></li> -->
+			          <li><a class="nav-link" href="#">Index</a></li>
+			          <li><a class="nav-link" href="#">Logout</a></li>
+			        </ul>
+		      	</li>
+
+            </ul>
+                
+
+              
 
             </nav>
     @yield('content')
