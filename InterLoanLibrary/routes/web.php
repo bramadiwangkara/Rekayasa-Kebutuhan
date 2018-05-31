@@ -24,6 +24,7 @@ Route::get('/admin/kelolabuku', 'adminController@kelolabuku')->name('admin.kelol
 Route::get('/admin/kelolapemustaka', 'adminController@kelolapemustaka')->name('admin.kelolapemustaka');
 Route::get('/admin/kelolapustakawan', 'adminController@kelolapustakawan')->name('admin.kelolapustakawan');
 Route::get('/admin/datapeminjaman', 'adminController@datapeminjaman')->name('admin.datapeminjaman');
+Route::get('/admin/kelolaperaturan', 'adminController@kelolaperaturan')->name('admin.kelolaperaturan');
 
 Route::get('/user', 'UserController@index')->name('user.home');
 Route::get('/user/profil', 'UserController@profil')->name('user.profil');

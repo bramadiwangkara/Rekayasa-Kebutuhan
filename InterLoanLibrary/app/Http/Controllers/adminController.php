@@ -25,4 +25,8 @@ class adminController extends Controller
     public function datapeminjaman(){
       return view('admin.datapeminjaman');
     }
+
+    public function kelolaperaturan(){
+      return view('admin.kelolaperaturan');
+    }
 }

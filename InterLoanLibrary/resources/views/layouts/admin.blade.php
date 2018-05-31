@@ -54,6 +54,9 @@
                 <li class="nav-item">
                   <a class="nav-link" href="/admin/kelolapustakawan">Kelola Pustakawan</a>
                 </li>
+                <li class="nav-item">
+                	<a class="nav-link" href="/admin/kelolaperaturan">Kelola Peraturan</a>
+                </li>
             </ul>
             <ul class="nav navbar-nav navbar-right mt-lg-0">
             	<li class="dropdown">

@@ -18,7 +18,7 @@
                   </button>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" style="color: green">Sedang Meminjam</a>
-                    <a class="dropdown-item" style="color:#E9E900 ">Menunggu Pengambilan</a>
+                    <a class="dropdown-item" style="color:#4169E1">Menunggu Pengambilan</a>
                     <a class="dropdown-item" style="color:red">Melebihi Waktu</a>
                   </div>
                 </div>
@@ -61,7 +61,7 @@
                     <td>RES051</td>
                     <td>05111540000170</td>
                     <td>MCN002</td>
-                    <td style="color:#E9E900">Menunggu Pengambilan</td>
+                    <td style="color:#4169E1">Menunggu Pengambilan</td>
                     <td>
                       <button class="btn btn-info">Pinjamkan</button>
 <!--                       <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#perpanjang">Perpanjang</a>
