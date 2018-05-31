@@ -82,7 +82,47 @@
         <h4 class="modal-title">Tambah Pustakawan</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="judul_buku">NIP:</label>
+            <div class="col-sm-10">          
+              <input type="text" class="form-control" id="pwd" placeholder="NIP" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <label class="control-label col-sm-2" for="judul_buku">Nama:</label>
+            <div class="col-sm-10">          
+              <input type="text" class="form-control" id="pwd" placeholder="Nama Pustakawan" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <label class="control-label col-sm-2" for="judul_buku">Password:</label>
+            <div class="col-sm-10">          
+              <input type="Password" class="form-control" id="pwd" placeholder="Password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <label class="control-label col-sm-5" for="judul_buku">Konfirmasi Password:</label>
+            <div class="col-sm-10">          
+              <input type="Password" class="form-control" id="pwd" placeholder="Konfirmasi Password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="judul_buku">Status:</label>
+            <div class="col-sm-10">
+              <select class="custom-select" required>
+              <option value="">Status</option>
+              <option value="1">Admin</option>
+              <option value="2">Pustakawan</option>
+            </select>  
+            </div>
+          </div>
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-success">Tambahkan</button>
+            </div>
+          </div>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>
@@ -104,7 +144,37 @@
         <h4 class="modal-title">Edit Pustakawan: Naufal P.F</h4>
       </div>
       <div class="modal-body">
-        <p>Some text in the modal.</p>
+        <form class="form-horizontal" action="#">
+          <div class="form-group">
+            <label class="control-label col-sm-2" for="judul_buku">NIP:</label>
+            <div class="col-sm-10">          
+              <input type="text" class="form-control" id="pwd" disabled="" value="199789098123" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <label class="control-label col-sm-2" for="judul_buku">Nama:</label>
+            <div class="col-sm-10">          
+              <input type="text" class="form-control" id="pwd" disabled="" value="Naufal P.F" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <label class="control-label col-sm-2" for="judul_buku">Password:</label>
+            <div class="col-sm-10">          
+              <input type="Password" class="form-control" id="pwd" placeholder="Password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <label class="control-label col-sm-5" for="judul_buku">Konfirmasi Password:</label>
+            <div class="col-sm-10">          
+              <input type="Password" class="form-control" id="pwd" placeholder="Konfirmasi Password" name="pwd">
+            </div>
+          </div>
+          <div class="form-group">        
+            <div class="col-sm-offset-2 col-sm-10">
+              <button type="submit" class="btn btn-info">Ubah</button>
+            </div>
+          </div>
+        </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Tutup</button>

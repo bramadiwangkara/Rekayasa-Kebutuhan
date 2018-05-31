@@ -60,8 +60,8 @@
 		        	<a class="nav-link" data-toggle="dropdown" href="#">#Admin</a>
 			        <ul class="dropdown-menu">
 			          <!-- <li><a class="nav-link" href="#"></a></li> -->
-			          <li><a class="nav-link" href="#">Index</a></li>
-			          <li><a class="nav-link" href="#">Logout</a></li>
+			          <li><a class="nav-link" href="/index">Index</a></li>
+			          <li><a class="nav-link" href="/">Logout</a></li>
 			        </ul>
 		      	</li>
 
